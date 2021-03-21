@@ -1,0 +1,15 @@
+server:
+  port: 9296
+
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:/C:/Users/Raghavendra M J/OneDrive/Desktop/MicroServices_SpringBoot/configrepo
+          clone-on-start: true
+
+
+
